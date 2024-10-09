@@ -1,0 +1,165 @@
+
+@media screen and (max-width: 1400px) {
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+
+.about-containers {
+    flex-wrap: wrap;
+}
+
+
+@media (min-width: 1024px) {
+    .section__pic-container img {
+        width: 50%; 
+        height: auto; 
+        max-height: none;
+    } 
+    
+        #profile {
+            flex-direction: row; 
+            justify-content: center; 
+            align-items: center; 
+            gap: 20px; 
+        }
+    }
+
+    
+    }
+}
+
+/* Puoli-näytön ja tabletin hallinta */
+@media (max-width: 1024px) and (min-width: 768px) {
+    .section__pic-container img {
+        width: 70%; 
+        height: auto; 
+    }
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+
+    
+    .about-details-container {
+        margin-top: 2rem;
+    }
+
+
+    #Profile, 
+    .section-container {
+        display: block;
+    }
+
+    section, 
+    .section-container {
+        height: fit-content;
+    }
+
+    section {
+        margin: 0 5%;
+    }
+
+    .section__pic-container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+
+    .about-containers {
+        margin-top: 0;
+    }
+
+
+    @media screen and (max-width: 768px) {
+        .section {
+            width: 95%;
+        }
+
+        .btm {
+            width: 100%;
+        }
+    }
+
+    
+    
+
+       /* Media query pienille näytöille */
+
+
+       @media (max-width: 768px) {
+        body {
+            padding: 10px; 
+        }
+    
+        #profile {
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            text-align: center;
+            width: 90%; 
+            padding: 0; 
+        }
+    
+        .section__pic-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%; 
+                margin: 0 auto; 
+                margin-bottom: 0px;
+            }
+            
+    
+        .section__pic-container img {
+            width: 100%;
+            height: auto;
+            max-height: 600px;
+            object-fit: contain;
+        }
+    
+        .section__text {
+            text-align: center;
+            
+        }
+
+
+        .contact-info-container {
+            font-size: 17px; 
+        }
+
+        .contact-info-upper-container {
+            font-size: 17px; 
+        }
+    
+        .btn-container {
+            display: flex; 
+            gap: 20%; 
+            margin-top: 20%; 
+            flex-direction: column; 
+        }
+    
+        .btn {
+            width: 100%; 
+            padding: 10px; 
+            margin: 5px 0; 
+        }
+    }
+    
+
+
+
+
+}
+
+
+
+
+
